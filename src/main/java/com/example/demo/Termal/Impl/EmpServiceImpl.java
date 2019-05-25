@@ -18,13 +18,10 @@ public class EmpServiceImpl implements IEmpService {
     @Autowired
     private IEmpDao iEmpDao;
 
-
     @Override
     public List queryEmpAll() {
         return iEmpDao.findAll();
     }
-
-
 
     @Override
     public Emp save(Emp emp) {
