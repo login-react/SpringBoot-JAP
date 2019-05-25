@@ -1,0 +1,18 @@
+server:
+  port: 8887
+
+
+spring:
+  datasource:
+    username: tale_admin
+    password: ll.941107
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://101.132.104.74:3306/ty?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+    properties:
+      hibernate:
+        format_sql: true
