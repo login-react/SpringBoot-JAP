@@ -54,9 +54,9 @@ public class UserController {
         emp.setSex(emps.getSex());
         emp.setHire(new Date());
         list.add(emp);
-        for(Emp empSave :list){
-            iEmpService.save(empSave);
-        }
+//        for(Emp empSave :list){
+//            iEmpService.save(empSave);
+//        }
         return list;
     }
 }
