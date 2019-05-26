@@ -4,10 +4,10 @@ server:
 
 spring:
   datasource:
-    username: tale_admin
-    password: ll.941107
+    username: root
+    password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://101.132.104.74:3306/ty?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
+    url: jdbc:mysql://172.17.199.37:3306/SpringBoot-JPA?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC
   jpa:
     hibernate:
       ddl-auto: update

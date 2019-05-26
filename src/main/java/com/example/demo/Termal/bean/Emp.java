@@ -10,7 +10,7 @@ import java.util.Date;
  * Created by zhoutaimin on 2019/5/24.
  */
 @Entity
-@Table(name="emp2")
+@Table(name="User")
 public class Emp {
 
     private int eid;
